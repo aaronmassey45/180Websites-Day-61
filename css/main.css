@@ -1,0 +1,37 @@
+#balloon {
+  height: 30%;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 20%;
+  z-index: 999;
+}
+
+#box {
+  background: transparent;
+  border: 1px solid white;
+  bottom: 0;
+  height: 150px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+}
+
+body, html, main {
+  background: black;
+}
+
+#it {
+  visibility: hidden;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+#text {
+  color: white;
+}
